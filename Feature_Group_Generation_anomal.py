@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import pandas as pd
 from mlxtend.frequent_patterns import fpgrowth, association_rules
 
