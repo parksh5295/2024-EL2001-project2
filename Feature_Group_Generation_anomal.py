@@ -2,7 +2,7 @@ import pandas as pd
 from mlxtend.frequent_patterns import fpgrowth, association_rules
 
 # CSV 파일 로드
-df = pd.read_csv('./quantized_test_data.csv')
+df = pd.read_csv('./quantized_train_data.csv')
 
 # label=1인 데이터만 필터링
 df_label_1 = df[df['label'] == 1]
