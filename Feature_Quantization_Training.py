@@ -4,7 +4,8 @@ import numpy as np
 # 양자화 함수 정의
 def quantize_feature(df, feature, bin_edges):
     """주어진 feature를 bin_edges에 맞춰 양자화하고 그룹명(label)을 추가"""
-    df[feature + '_group'] = pd.cut(df[feature], bins=bin_edges, labels=False, right=False) + 1
+    df[feature + '_group'] = pd.cut(df[feature], bins=bin_edges, labels=False, right=False, include_lowest=True) + 1
+    df[feature + '_group'] = df[feature + '_group'].fillna(-1)
     return df
 
 # 그룹화할 범위 설정 함수

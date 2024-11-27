@@ -6,6 +6,7 @@ def quantize_feature(feature, bin_edges):
     """주어진 feature를 bin_edges에 맞춰 양자화하고 그룹명(label)을 추가"""
     # 범위 밖의 값은 가장 가까운 그룹으로 소속
     df_test[feature + '_group'] = pd.cut(df_test[feature], bins=bin_edges, labels=False, right=False, include_lowest=True)
+    df_test[feature + '_group'] = df_test[feature + '_group'].fillna(-1) 
     # 그룹 외 값은 가장 가까운 그룹에 자동으로 소속
     df_test[feature + '_group'] = df_test[feature + '_group'].apply(lambda x: min(max(x, 0), len(bin_edges) - 2) + 1)
     return df_test

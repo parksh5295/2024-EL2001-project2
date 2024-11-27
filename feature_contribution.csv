@@ -1,0 +1,28 @@
+,0
+AQI_group,0.5289478848319732
+sun_set_group,0.4729928674401703
+Fine Particulate Matter (micrograms per cubic meter)_group,0.4592675743332065
+night_duration_group,0.4565060021039591
+day_duration_group,0.45619513204734463
+Particulate Matter (micrograms per cubic meter)_group,0.4506323458433493
+sun_rise_group,0.42586217312680497
+Carbon Monoxide Concentration (ppm)_group,0.4039999567266931
+avg(ground temperature)_group,0.389083778527594
+month_group,0.35663457814793964
+min (humidity)_group,0.3534369518320247
+day_avg_temperature_app_group,0.3448131166395315
+Nitrogen Dioxide Concentration (ppm)_group,0.3428640562761017
+Ozone Concentration (ppm)_group,0.32962466305845795
+avg (temperature)_group,0.3283563413618162
+avg(evaporation volume)_group,0.3205933698730199
+avg(local pressure)_group,0.3175609603071764
+night_avg_temperature_app_group,0.3157315415856293
+Sulfur Dioxide Concentration (ppm)_group,0.30914092326858866
+min (temperature)_group,0.30828898050635023
+avg (humidity)_group,0.28189596139115763
+sun_max_group,0.2783369824163455
+max (temperature)_group,0.2571340540790069
+max (humidity)_group,0.14859519342919514
+power_group,0.14005382312627934
+avg(wind speed)_group,0.13479202638510845
+avg(cloud cover)_group,0.13065300946714012
